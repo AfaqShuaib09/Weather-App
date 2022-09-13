@@ -1,0 +1,11 @@
+.outfit {
+    font-family: 'Outfit', sans-serif;
+    color: coral;
+    font-weight: bold;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
