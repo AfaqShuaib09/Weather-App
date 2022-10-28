@@ -1,7 +1,8 @@
 import axios from "axios";
 import { toast } from "react-toastify";
+import { API_OPENWEATHER_KEY } from "./config";
 
-const API_KEY = "42411b5e524187e03b57b031ccc23c3b";
+const API_KEY = API_OPENWEATHER_KEY;
 const API_URL = "https://api.openweathermap.org/data/2.5/weather";
 
 export const fetchWeather = async (query) => {

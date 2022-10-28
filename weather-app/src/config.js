@@ -1,0 +1,1 @@
+export const API_OPENWEATHER_KEY = `{process.env.REACT_APP_API_OPENWEATHER_KEY}`;
